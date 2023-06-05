@@ -1,0 +1,156 @@
+
+body {
+    background-color: rgb(160, 160, 160);
+    margin: 0px;
+    color: white;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(32, 31, 31);
+}
+
+.lead {
+    font-weight: 500;
+    margin-top: 50px;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+#seconds {
+    color: green;
+}
+
+#current-word {
+    margin-top: 30px;
+    font-size: 80px;
+    font-weight: 300;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+    letter-spacing: -5px;
+
+}
+
+#word-input {
+ margin: auto;
+ display: block;
+ min-width: 375px;
+ min-height: 30px;
+ border-style: solid;
+ border-width: 1px;
+ border-color: rgb(116, 115, 115);
+ border-radius: 5px;
+ outline: none;
+ margin-bottom: 35px;
+}
+
+.time-score {
+  
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.instructions h5{
+    font-size: 20px;
+   text-align: center;
+   margin: auto;
+}
+
+.instructions {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    max-width: 450px;
+    background-color: rgb(32, 31, 31);
+    padding: 20px;
+}
+
+#message {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.box {
+    display: relative;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(80, 91, 117);
+    width: 150px;
+}
+
+.dropdown {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+    border: none;
+    background-color: rgb(80, 91, 117);
+    margin: auto;
+     z-index: 1;
+    padding: 20px;
+    align-items: center;
+   
+     
+}
+
+.dropdown:hover {
+    cursor: pointer;
+    background-color: rgb(85, 114, 139);
+}
+
+
+
+.dropdown-content {
+    position: relative;
+    display: block;
+   
+    
+    z-index: 1;
+}
+
+
+.dropdown-content a{
+    text-decoration: none;
+    display:flex;
+    position: relative;
+    font-family: sans-serif;
+    justify-content: center;
+    color: white; 
+    padding: 20px;
+
+  
+    
+   
+}
+
+
+.dropdown-content a:hover {
+    background-color: rgb(85, 114, 139);
+}
+
+.dropdown .dropdown-content a {
+left: 100%;
+}
+
+.dropdown.active .dropdown-content a{
+    left: 0;
+}
+
+
+
+
+
